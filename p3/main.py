@@ -14,3 +14,4 @@ while att < tries:
         if att < tries:
             print("Check again")
         else:
+            print("Fail")
