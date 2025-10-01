@@ -7,6 +7,12 @@ while att < tries:
     
     if a == pw:
         print("LOGIN")
+        exit()
+        exit()
+        exit()
+        exit()
+        exit()
+        exit()
         
     else:
         att += 1
@@ -15,3 +21,13 @@ while att < tries:
         else:
             print("Fail")
             exit()
+            exit()
+            exit()
+            exit()
+            exit()
+            exit()
+            exit()
+            exit()
+            exit()
+            exit()
+            
