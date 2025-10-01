@@ -7,7 +7,7 @@ while att < tries:
     
     if a == pw:
         print("LOGIN")
-        
+        exit()
     else:
         att += 1
         if att < tries:
