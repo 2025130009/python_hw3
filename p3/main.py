@@ -14,5 +14,4 @@ while att < tries:
             print("Check again")
         else:
             print("Fail")
-            
-            exit()
+exit()
