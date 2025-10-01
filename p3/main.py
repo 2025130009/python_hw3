@@ -1,17 +1,12 @@
-pw = "Aerospace"
-tries = 5
-att = 0
+pw="Aerospace"
+count=1
+a=input()
 
-while att < tries:
+while count<5 and a !=pw:
+    print("Check again")
+    count+=1
     a=input()
-    
-    if a == pw:
-        print("LOGIN")
-        exit()
-        
-    else:
-        att += 1
-        if att < tries:
-            print("Check again")
-        else:
-            print("Fail")
+if a == pw:
+    print("LOGIN")
+else:
+    print("Fail")
